@@ -1,8 +1,23 @@
 import { AppBar, Box, Button, Toolbar, Typography } from '@mui/material'
+import { useNavigate } from 'react-router-dom'
 
-const navBarItems = ['About', 'Events', 'Connect']
+const navBarItems = [
+  {
+    name: 'Home',
+    route: '/',
+  },
+  {
+    name: 'Events',
+    route: '/events',
+  },
+  {
+    name: 'Connect',
+    route: '/connect',
+  },
+]
 
 const NavBar = () => {
+  const navigate = useNavigate()
   return (
     <AppBar>
       <Toolbar>
@@ -19,8 +34,12 @@ const NavBar = () => {
         </Typography>
         <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
           {navBarItems.map((item) => (
-            <Button key={item} sx={{ color: '#fff' }}>
-              {item}
+            <Button
+              key={item.name}
+              sx={{ color: '#fff' }}
+              onClick={() => navigate(item.route)}
+            >
+              {item.name}
             </Button>
           ))}
         </Box>
