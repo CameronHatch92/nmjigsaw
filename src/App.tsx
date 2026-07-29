@@ -1,5 +1,7 @@
+import NavBar from './NavBar'
+
 const App = () => {
-  return <h1>New Mexico Jigsaw Puzzle Association</h1>
+  return <NavBar />
 }
 
 export default App
