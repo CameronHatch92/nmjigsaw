@@ -3,6 +3,10 @@ import events from './events'
 import EventRow from './EventRow'
 
 const Events = () => {
+  const upcomingEvents = events
+    .filter((e) => e.startsAt > new Date())
+    .sort((a, b) => +a.startsAt - +b.startsAt)
+
   return (
     <Box>
       <Toolbar />
@@ -11,7 +15,7 @@ const Events = () => {
       >
         Upcoming Events
       </Typography>
-      {events.map((puzzleEvent) => (
+      {upcomingEvents.map((puzzleEvent) => (
         <EventRow puzzleEvent={puzzleEvent} />
       ))}
     </Box>

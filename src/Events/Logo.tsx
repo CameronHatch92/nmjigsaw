@@ -2,6 +2,7 @@ import { Box } from '@mui/material'
 import { LogoName } from './structs'
 
 import nmjpaTmp from '../assets/nmjpaTmp.png'
+import sliceAndDice from '../assets/sliceAndDice.jpeg'
 import speedPuzzling from '../assets/speedPuzzling.jpeg'
 
 interface Props {
@@ -13,6 +14,9 @@ const Logo = ({ logoName }: Props) => {
     switch (logoName) {
       case 'speedPuzzling': {
         return speedPuzzling
+      }
+      case 'sliceAndDice': {
+        return sliceAndDice
       }
       default: {
         return nmjpaTmp
