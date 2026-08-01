@@ -1,9 +1,9 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 
+import Connect from './Connect'
+import Events from './Events'
 import Home from './Home'
 import NavBar from './NavBar'
-import Events from './Events'
-import Connect from './Connect'
 
 const App = () => {
   return (
