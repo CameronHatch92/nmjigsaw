@@ -1,6 +1,7 @@
 import { Box, Toolbar, Typography } from '@mui/material'
-import events from './events'
+
 import EventRow from './EventRow'
+import events from './events'
 
 const Events = () => {
   const upcomingEvents = events

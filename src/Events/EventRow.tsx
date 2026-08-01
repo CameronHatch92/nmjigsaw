@@ -1,15 +1,8 @@
-import {
-  Box,
-  Button,
-  Chip,
-  Grid,
-  Paper,
-  Stack,
-  Typography,
-} from '@mui/material'
-import { EventType, PuzzleEvent } from './structs'
-import Logo from './Logo'
+import { Box, Chip, Grid, Paper, Stack, Typography } from '@mui/material'
+
 import ActionItem from './ActionItem'
+import Logo from './Logo'
+import { EventType, PuzzleEvent } from './structs'
 
 interface Props {
   puzzleEvent: PuzzleEvent

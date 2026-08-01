@@ -1,9 +1,9 @@
 import { Box } from '@mui/material'
-import { LogoName } from './structs'
 
 import nmjpaTmp from '../assets/nmjpaTmp.png'
 import sliceAndDice from '../assets/sliceAndDice.jpeg'
 import speedPuzzling from '../assets/speedPuzzling.jpeg'
+import { LogoName } from './structs'
 
 interface Props {
   logoName?: LogoName

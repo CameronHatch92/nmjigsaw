@@ -1,4 +1,5 @@
 import { Button } from '@mui/material'
+
 import { PuzzleEvent } from './structs'
 
 interface Props {
