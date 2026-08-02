@@ -24,7 +24,7 @@ export default defineConfig([
       'simple-import-sort/exports': 'error',
       'no-unused-vars': 'error',
       'no-console': 'error',
-      'eol-last': ['error', 'always']
+      'eol-last': ['error', 'always'],
     },
     languageOptions: {
       globals: globals.browser,
