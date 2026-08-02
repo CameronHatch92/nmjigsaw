@@ -27,12 +27,11 @@ const NavBar = () => {
           sx={{
             flexGrow: 1,
             textAlign: 'left',
-            display: { xs: 'none', sm: 'block' },
           }}
         >
-          New Mexico Jigsaw Puzzle Association
+          NMJPA
         </Typography>
-        <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
+        <Box>
           {navBarItems.map((item) => (
             <Button
               key={item.name}
