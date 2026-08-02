@@ -2,6 +2,7 @@ import { Box, Toolbar, Typography } from '@mui/material'
 
 import EventRow from './EventRow'
 import events from './events'
+import SubmitEvent from './SubmitEvent'
 
 const Events = () => {
   const upcomingEvents = events
@@ -11,6 +12,7 @@ const Events = () => {
   return (
     <Box>
       <Toolbar />
+      <SubmitEvent />
       <Typography
         sx={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '0.75rem' }}
       >
