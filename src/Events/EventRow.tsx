@@ -81,9 +81,9 @@ const EventRow = ({ puzzleEvent }: Props) => {
 
         <Grid
           size={6}
-          sx={{ justifyContent: 'center', alignItems: 'flex-start' }}
+          sx={{ justifyContent: 'center'}}
         >
-          <Stack spacing={0.5}>
+          <Stack spacing={0.5} sx={{alignItems: 'flex-start'}}>
             <Typography sx={{ fontSize: '1.1rem', fontWeight: 600 }}>
               {puzzleEvent.title}
             </Typography>
