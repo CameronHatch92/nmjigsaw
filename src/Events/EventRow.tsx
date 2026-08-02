@@ -51,13 +51,13 @@ const EventRow = ({ puzzleEvent }: Props) => {
       }}
     >
       <Grid container spacing={2} sx={{ alignItems: 'center' }}>
-        <Grid size={4}>
+        <Grid size={{xs: 12, sm: 4}}>
           <Box
             sx={{
               display: 'flex',
               alignItems: 'flex-end',
               gap: 2,
-              justifyContent: 'center',
+              justifyContent: {xs: 'flex-start', sm: 'center'},
             }}
           >
             <Logo logoName={puzzleEvent.logoName} />
@@ -80,8 +80,8 @@ const EventRow = ({ puzzleEvent }: Props) => {
         </Grid>
 
         <Grid
-          size={6}
-          sx={{ justifyContent: 'center'}}
+          size={{xs: 12, sm: 6}}
+          sx={{ justifyContent: 'center', alignItems: 'flex-start'}}
         >
           <Stack spacing={0.5} sx={{alignItems: 'flex-start'}}>
             <Typography sx={{ fontSize: '1.1rem', fontWeight: 600 }}>
@@ -100,7 +100,7 @@ const EventRow = ({ puzzleEvent }: Props) => {
           </Stack>
         </Grid>
 
-        <Grid size={2}>
+        <Grid size={{xs: 12, sm: 2}} sx={{display: 'flex', justifyContent: {xs: 'flex-start', sm: 'flex-end'}}}>
           <ActionItem puzzleEvent={puzzleEvent} />
         </Grid>
       </Grid>
