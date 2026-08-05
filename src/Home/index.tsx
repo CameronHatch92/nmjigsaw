@@ -1,17 +1,10 @@
-import { Box, Toolbar, Typography } from '@mui/material'
+import { Typography } from '@mui/material'
+
+import Page from '../common/Page'
 
 const Home = () => {
   return (
-    <Box
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '1rem',
-        paddingLeft: '0.75rem',
-        paddingRight: '0.75rem',
-      }}
-    >
-      <Toolbar />
+    <Page>
       <Typography sx={{ fontSize: '1.5rem', fontWeight: 600 }}>
         New Mexico Jigsaw Puzzle Association
       </Typography>
@@ -22,7 +15,7 @@ const Home = () => {
         online community, and curating a list of puzzle events throughout the
         state.
       </Typography>
-    </Box>
+    </Page>
   )
 }
 

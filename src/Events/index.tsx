@@ -1,5 +1,6 @@
-import { Box, Toolbar, Typography } from '@mui/material'
+import { Typography } from '@mui/material'
 
+import Page from '../common/Page'
 import EventRow from './EventRow'
 import events from './events'
 import SubmitEvent from './SubmitEvent'
@@ -10,16 +11,7 @@ const Events = () => {
     .sort((a, b) => +a.startsAt - +b.startsAt)
 
   return (
-    <Box
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '1rem',
-        paddingLeft: '0.75rem',
-        paddingRight: '0.75rem',
-      }}
-    >
-      <Toolbar />
+    <Page>
       <SubmitEvent />
       <Typography
         sx={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '0.75rem' }}
@@ -29,7 +21,7 @@ const Events = () => {
       {upcomingEvents.map((puzzleEvent) => (
         <EventRow puzzleEvent={puzzleEvent} />
       ))}
-    </Box>
+    </Page>
   )
 }
 

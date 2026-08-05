@@ -1,19 +1,11 @@
-import { Box, Grid, Link, Toolbar, Typography } from '@mui/material'
+import { Grid, Link, Typography } from '@mui/material'
 
+import Page from '../common/Page'
 import ConnectCard from './ConnectCard'
 
 const Connect = () => {
   return (
-    <Box
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        gap: '1rem',
-        paddingLeft: '0.75rem',
-        paddingRight: '0.75rem',
-      }}
-    >
-      <Toolbar />
+    <Page>
       <Typography
         sx={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '0.75rem' }}
       >
@@ -47,7 +39,7 @@ const Connect = () => {
           }
         />
       </Grid>
-    </Box>
+    </Page>
   )
 }
 
