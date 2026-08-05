@@ -10,7 +10,15 @@ const Events = () => {
     .sort((a, b) => +a.startsAt - +b.startsAt)
 
   return (
-    <Box>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '1rem',
+        paddingLeft: '0.75rem',
+        paddingRight: '0.75rem',
+      }}
+    >
       <Toolbar />
       <SubmitEvent />
       <Typography

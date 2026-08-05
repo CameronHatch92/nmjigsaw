@@ -33,11 +33,7 @@ const NavBar = () => {
         </Typography>
         <Box>
           {navBarItems.map((item) => (
-            <Button
-              key={item.name}
-              sx={{ color: '#fff' }}
-              onClick={() => navigate(item.route)}
-            >
+            <Button key={item.name} onClick={() => navigate(item.route)}>
               {item.name}
             </Button>
           ))}

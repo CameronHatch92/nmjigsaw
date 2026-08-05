@@ -3,11 +3,10 @@ import { ReactNode } from 'react'
 
 interface Props {
   title: string
-  content: string
-  actionItem: ReactNode
+  content: ReactNode
 }
 
-const ConnectCard = ({ title, content, actionItem }: Props) => {
+const ConnectCard = ({ title, content }: Props) => {
   return (
     <Grid
       size={{ xs: 12, sm: 6 }}
@@ -26,10 +25,11 @@ const ConnectCard = ({ title, content, actionItem }: Props) => {
       >
         {title}
       </Typography>
-      <Typography sx={{ fontSize: '0.875', fontWeight: 400 }}>
+      <Typography
+        sx={{ fontSize: '0.875', fontWeight: 400, textAlign: 'left' }}
+      >
         {content}
       </Typography>
-      {actionItem}
     </Grid>
   )
 }
