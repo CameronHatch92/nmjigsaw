@@ -34,7 +34,7 @@ const Connect = () => {
           content={
             <>
               Have questions or feedback? <br />
-              <Link href="mailto:nmjigsaw.org">Send us an email!</Link>
+              <Link href="mailto:info@nmjigsaw.org">Send us an email!</Link>
             </>
           }
         />
