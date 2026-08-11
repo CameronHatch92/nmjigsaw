@@ -20,7 +20,7 @@ const Connect = () => {
               finishing that super hard puzzle? Want to find that final teammate
               to round out your puzzling team?{' '}
               <Link
-                href="https://www.facebook.com/groups/1730853644927452"
+                href="https://www.facebook.com/groups/newmexicojigsaw"
                 target="_blank"
                 rel="noopener noreferrer"
               >
