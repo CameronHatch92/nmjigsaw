@@ -45,6 +45,13 @@ const events: PuzzleEvent[] = [
     infoLink:
       'https://sliceanddicepizzeria.com/event/puzzle-challenge-east/2026-09-09/',
   },
+  {
+    title: 'Super Saturday Warm-up',
+    startsAt: new Date('2026-08-22 18:30:00'),
+    city: 'Albuquerque',
+    type: 'speed',
+    infoLink: 'https://www.facebook.com/events/2251442822077446',
+  },
 ]
 
 export default events
