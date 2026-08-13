@@ -12,4 +12,4 @@ export interface PuzzleEvent {
 
 export type EventType = 'casual' | 'speed' | 'swap'
 
-export type LogoName = 'speedPuzzling' | 'sliceAndDice'
+export type LogoName = 'rioRanchoLibrary' | 'speedPuzzling' | 'sliceAndDice'

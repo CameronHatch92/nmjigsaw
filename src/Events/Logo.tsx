@@ -1,6 +1,7 @@
 import { Box } from '@mui/material'
 
 import nmjpaTmp from '../assets/nmjpaTmp.png'
+import rioRanchoLibrary from '../assets/rioRanchoLibrary.jpg'
 import sliceAndDice from '../assets/sliceAndDice.jpeg'
 import speedPuzzling from '../assets/speedPuzzling.jpeg'
 import { LogoName } from './structs'
@@ -17,6 +18,9 @@ const Logo = ({ logoName }: Props) => {
       }
       case 'sliceAndDice': {
         return sliceAndDice
+      }
+      case 'rioRanchoLibrary': {
+        return rioRanchoLibrary
       }
       default: {
         return nmjpaTmp

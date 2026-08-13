@@ -52,6 +52,15 @@ const events: PuzzleEvent[] = [
     type: 'speed',
     infoLink: 'https://www.facebook.com/events/2251442822077446',
   },
+  {
+    title: 'Puzzle Competition (Rio Rancho Public Libraries)',
+    startsAt: new Date('2026-08-29 19:00:00'),
+    city: 'Rio Rancho',
+    type: 'speed',
+    logoName: 'rioRanchoLibrary',
+    infoLink:
+      'https://riorancholibraries.events.mylibrary.digital/event?id=261350',
+  },
 ]
 
 export default events
