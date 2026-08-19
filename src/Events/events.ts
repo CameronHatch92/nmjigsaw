@@ -79,6 +79,15 @@ const events: PuzzleEvent[] = [
     infoLink:
       'https://sliceanddicepizzeria.com/event/puzzle-challenge-east/2026-10-14/',
   },
+  {
+    title: 'Puzzles and Pints: Speed Puzzling Competition',
+    startsAt: new Date('2026-09-19T19:00:00.000Z'),
+    city: 'Albuquerque',
+    type: 'speed',
+    logoName: 'canteen',
+    registrationLink:
+      'https://runsignup.com/TicketEvent/PuzzlesAndPintsTaproom',
+  },
 ]
 
 export default events
