@@ -88,6 +88,13 @@ const events: PuzzleEvent[] = [
     registrationLink:
       'https://runsignup.com/TicketEvent/PuzzlesAndPintsTaproom',
   },
+  {
+    title: 'NMJPA Unboxed Pairs Contest!',
+    startsAt: new Date('2026-09-22T20:00:00.000Z'),
+    city: 'Albuquerque',
+    type: 'speed',
+    infoLink: 'https://www.facebook.com/events/1692293338541765',
+  },
 ]
 
 export default events
