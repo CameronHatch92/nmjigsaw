@@ -1,7 +1,7 @@
 import { Box } from '@mui/material'
 
 import canteen from '../assets/canteen.jpg'
-import nmjpaTmp from '../assets/nmjpaTmp.png'
+import nmJpaSquare from '../assets/nmJpaSquare.jpeg'
 import rioRanchoLibrary from '../assets/rioRanchoLibrary.jpg'
 import sliceAndDice from '../assets/sliceAndDice.jpeg'
 import speedPuzzling from '../assets/speedPuzzling.jpeg'
@@ -27,7 +27,7 @@ const Logo = ({ logoName }: Props) => {
         return rioRanchoLibrary
       }
       default: {
-        return nmjpaTmp
+        return nmJpaSquare
       }
     }
   }
