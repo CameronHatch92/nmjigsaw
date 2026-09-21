@@ -90,7 +90,7 @@ const events: PuzzleEvent[] = [
   },
   {
     title: 'NMJPA Unboxed Pairs Contest!',
-    startsAt: new Date('2026-09-22T20:00:00.000Z'),
+    startsAt: new Date('2026-09-20T20:00:00.000Z'),
     city: 'Albuquerque',
     type: 'speed',
     infoLink: 'https://www.facebook.com/events/1692293338541765',

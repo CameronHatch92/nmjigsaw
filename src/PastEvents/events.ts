@@ -4,7 +4,7 @@ const events: CompletedEvent[] = [
   {
     id: 1,
     title: 'NMJPA Contest Series: Unboxed Pairs Competition',
-    date: new Date('2026-09-22T20:00:00.000Z'),
+    date: new Date('2026-09-20T20:00:00.000Z'),
     city: 'Albuquerque',
     results: [
       {
