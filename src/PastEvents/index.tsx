@@ -8,7 +8,6 @@ const PastEvents = () => {
   const completedEvents = events.sort((a, b) => +a.date - +b.date)
   return (
     <Page>
-      {' '}
       <Typography
         sx={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '0.75rem' }}
       >

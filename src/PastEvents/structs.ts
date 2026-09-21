@@ -1,6 +1,6 @@
 import { LogoName } from '../Events/structs'
 
-interface PuzzleTime {
+export interface PuzzleTime {
   seconds: number
   minutes: number
   hours: number
@@ -21,4 +21,5 @@ export interface CompletedEvent {
   description: string
   puzzleName: string
   puzzleBrand: string
+  pieceCount: number
 }
