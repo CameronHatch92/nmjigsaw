@@ -4,6 +4,7 @@ import Connect from './Connect'
 import Events from './Events'
 import Home from './Home'
 import NavBar from './NavBar'
+import PastEvent from './PastEvent'
 import PastEvents from './PastEvents'
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/events" element={<Events />} />
         <Route path="/connect" element={<Connect />} />
         <Route path="/past_events" element={<PastEvents />} />
+        <Route path="/events/:id" element={<PastEvent />} />
       </Routes>
     </Router>
   )
