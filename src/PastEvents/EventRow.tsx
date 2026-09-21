@@ -30,7 +30,7 @@ const EventRow = ({ puzzleEvent }: Props) => {
           <Box
             sx={{
               display: 'flex',
-              alignItems: 'flex-end',
+              alignItems: 'center',
               gap: 2,
               justifyContent: { xs: 'flex-start', sm: 'center' },
             }}
