@@ -1,4 +1,4 @@
-import { Typography } from '@mui/material'
+import { Link, Typography } from '@mui/material'
 
 import Page from '../common/Page'
 import EventRow from './EventRow'
@@ -13,6 +13,9 @@ const Events = () => {
   return (
     <Page>
       <SubmitEvent />
+      <Link href="/#/past_events" sx={{ alignSelf: 'flex-end' }}>
+        See Past Event Results here
+      </Link>
       <Typography
         sx={{ fontSize: '1.5rem', fontWeight: 600, marginBottom: '0.75rem' }}
       >
