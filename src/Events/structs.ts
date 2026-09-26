@@ -2,7 +2,7 @@ export interface PuzzleEvent {
   title: string
   startsAt: Date
   city: string
-  type: EventType
+  types: EventType[]
   logoName?: LogoName
   registrationLink?: string
   emailAddress?: string

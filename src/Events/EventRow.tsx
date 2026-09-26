@@ -68,13 +68,15 @@ const EventRow = ({ puzzleEvent }: Props) => {
                   DATE_OPTIONS
                 )}
               </Typography>
-              <Chip
-                label={getEventTypeName(puzzleEvent.type)}
-                color={getEventTypeColor(puzzleEvent.type)}
-                variant="outlined"
-                size="small"
-                sx={{ fontWeight: 600 }}
-              />
+              {puzzleEvent.types.map((type) => (
+                <Chip
+                  label={getEventTypeName(type)}
+                  color={getEventTypeColor(type)}
+                  variant="outlined"
+                  size="small"
+                  sx={{ fontWeight: 600 }}
+                />
+              ))}
             </Stack>
           </Box>
         </Grid>
