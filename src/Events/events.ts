@@ -96,6 +96,13 @@ const events: PuzzleEvent[] = [
     infoLink: 'https://www.facebook.com/events/1692293338541765',
   },
   {
+    title: 'NMPA Contest Series: Solo Wooden Puzzle Contest',
+    startsAt: new Date('2026-10-22T00:00:00.000Z'),
+    city: 'Albuquerque',
+    types: ['speed'],
+    infoLink: '/#/events/oct_wooden_2026',
+  },
+  {
     title: 'Halloween Puzzle Party and Swap!',
     startsAt: new Date('2026-11-01T20:00:00.000Z'),
     city: 'Albuquerque',
