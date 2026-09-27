@@ -45,6 +45,9 @@ const OctWooden2026 = () => {
         <Typography sx={{ fontWeight: 500, marginLeft: '1rem' }}>
           <b>Cost:</b> $8/person
         </Typography>
+        <Typography sx={{ fontWeight: 500, marginLeft: '1rem' }}>
+          <b>Prizes:</b> Puzzle prizes for the top 3 finishers!
+        </Typography>
         <Typography sx={{ fontWeight: 600, paddingTop: '1rem' }}>
           Please email <Link href={rsvpAddress}>info@nmjigsaw.org</Link> to
           register and get payment/location information
