@@ -109,6 +109,15 @@ const events: PuzzleEvent[] = [
     types: ['casual', 'swap'],
     infoLink: '/#/events/nov_halloween_2026',
   },
+  {
+    title: 'Clovis Civic Center: The Great Puzzle Race',
+    startsAt: new Date('2026-10-04T19:00:00.000Z'),
+    city: 'Clovis',
+    types: ['speed', 'swap'],
+    logoName: 'clovis',
+    registrationLink:
+      'https://checkout.square.site/merchant/7RMQKYCY3Z956/checkout/3UQX4H2L4W4M35EZYHOF43Q6?fbclid=IwY2xjawUqOURleHRuA2FlbQIxMABwZG9mAWJyaWQRMWFmdFAzbUp4aE9KSnZPakRzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe6Ls_76vLZjuLPvFDjjAFIa7nQd5w-LfkIxDDj4dEmB9ho3XbVcZJ5-wKRsQ_aem_UqOkxhzvzG7D-LfwAZIHIw',
+  },
 ]
 
 export default events

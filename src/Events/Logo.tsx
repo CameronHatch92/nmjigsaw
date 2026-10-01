@@ -1,6 +1,7 @@
 import { Box } from '@mui/material'
 
 import canteen from '../assets/canteen.jpg'
+import clovis from '../assets/clovis.jpeg'
 import nmJpaSquare from '../assets/nmJpaSquare.jpeg'
 import rioRanchoLibrary from '../assets/rioRanchoLibrary.jpg'
 import sliceAndDice from '../assets/sliceAndDice.jpeg'
@@ -16,6 +17,9 @@ const Logo = ({ logoName }: Props) => {
     switch (logoName) {
       case 'canteen': {
         return canteen
+      }
+      case 'clovis': {
+        return clovis
       }
       case 'speedPuzzling': {
         return speedPuzzling
