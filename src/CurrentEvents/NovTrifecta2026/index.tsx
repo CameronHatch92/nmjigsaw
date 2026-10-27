@@ -56,6 +56,10 @@ const NovTrifecta2026 = () => {
           <b>Cost:</b> $15/person
         </Typography>
         <Typography sx={{ fontWeight: 500, marginLeft: '1rem' }}>
+          <b>RSVP:</b> Please <Link href={rsvpAddress}>register</Link> by
+          November 13th so we can order the right amount of puzzles!
+        </Typography>
+        <Typography sx={{ fontWeight: 500, marginLeft: '1rem' }}>
           <b>Prizes:</b> Puzzle prizes for the top finishers!
         </Typography>
         <Typography sx={{ fontWeight: 600, paddingTop: '1rem' }}>
