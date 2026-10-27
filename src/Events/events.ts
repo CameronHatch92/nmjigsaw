@@ -118,6 +118,13 @@ const events: PuzzleEvent[] = [
     registrationLink:
       'https://checkout.square.site/merchant/7RMQKYCY3Z956/checkout/3UQX4H2L4W4M35EZYHOF43Q6?fbclid=IwY2xjawUqOURleHRuA2FlbQIxMABwZG9mAWJyaWQRMWFmdFAzbUp4aE9KSnZPakRzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe6Ls_76vLZjuLPvFDjjAFIa7nQd5w-LfkIxDDj4dEmB9ho3XbVcZJ5-wKRsQ_aem_UqOkxhzvzG7D-LfwAZIHIw',
   },
+  {
+    title: 'NMPA Contest Series: Trifecta',
+    startsAt: new Date('2026-11-21T01:00:00.000Z'),
+    city: 'Albuquerque',
+    types: ['speed'],
+    infoLink: '/#/events/nov_trifecta_2026',
+  },
 ]
 
 export default events
