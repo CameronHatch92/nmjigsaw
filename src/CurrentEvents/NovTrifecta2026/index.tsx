@@ -49,7 +49,8 @@ const NovTrifecta2026 = () => {
           <b>When:</b> Friday November 20, 6pm
         </Typography>
         <Typography sx={{ fontWeight: 500, marginLeft: '1rem' }}>
-          <b>Where:</b> North Domingo Baca Multigenerational Center, Classroom 1
+          <b>Where:</b> North Domingo Baca Multigenerational Center, Classroom 1{' '}
+          <b>(New location!)</b>
         </Typography>
         <Typography sx={{ fontWeight: 500, marginLeft: '1rem' }}>
           <b>Cost:</b> $15/person
