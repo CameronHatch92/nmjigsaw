@@ -15,6 +15,15 @@ interface Props {
 }
 
 const Results = ({ puzzleEvent }: Props) => {
+  const orderedResults = puzzleEvent.results.sort((a, b) => {
+    if (a.time.hours == b.time.hours) {
+      if (a.time.minutes === b.time.minutes) {
+        return a.time.seconds - b.time.seconds
+      }
+      return a.time.minutes - b.time.minutes
+    }
+    return a.time.hours - b.time.hours
+  })
   return (
     <TableContainer
       sx={{ marginBottom: '0.75rem', width: 'unset', alignSelf: 'center' }}
@@ -50,7 +59,7 @@ const Results = ({ puzzleEvent }: Props) => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {puzzleEvent.results.map((result, idx) => (
+          {orderedResults.map((result, idx) => (
             <TableRow
               key={result.name}
               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
