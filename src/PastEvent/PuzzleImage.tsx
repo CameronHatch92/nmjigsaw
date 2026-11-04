@@ -1,7 +1,7 @@
 import { Box } from '@mui/material'
 
 import catZodiac from '../assets/puzzleImages/catZodiac.png'
-import rainbowOwLOnABranch from '../assets/puzzleImages/rainbowOwLOnABranch.png'
+import rainbowOwlOnABranch from '../assets/puzzleImages/rainbowOwlOnABranch.png'
 
 interface Props {
   puzzleName: string
@@ -14,7 +14,7 @@ const PuzzleImage = ({ puzzleName }: Props) => {
         return catZodiac
       }
       case 'Rainbow Owl on a Branch': {
-        return rainbowOwLOnABranch
+        return rainbowOwlOnABranch
       }
     }
   }
