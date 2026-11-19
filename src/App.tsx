@@ -1,6 +1,7 @@
 import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Connect from './Connect'
+import DecPairs2026 from './CurrentEvents/DecPairs2026'
 import NovHalloween2026 from './CurrentEvents/NovHalloween2026'
 import NovTrifecta2026 from './CurrentEvents/NovTrifecta2026'
 import OctWooden2026 from './CurrentEvents/OctWooden2026'
@@ -25,6 +26,7 @@ const App = () => {
         />
         <Route path="/events/oct_wooden_2026" element={<OctWooden2026 />} />
         <Route path="/events/nov_trifecta_2026" element={<NovTrifecta2026 />} />
+        <Route path="/events/dec_pairs_2026" element={<DecPairs2026 />} />
         <Route path="/events/:id" element={<PastEvent />} />
       </Routes>
     </Router>
