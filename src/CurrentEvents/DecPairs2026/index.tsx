@@ -56,7 +56,7 @@ const DecPairs2026 = () => {
         </Typography>
         <Typography sx={{ fontWeight: 500, marginLeft: '1rem' }}>
           <b>RSVP:</b> Please <Link href={rsvpAddress}>register</Link> by
-          November 10th so we can order the right amount of puzzles!
+          December 10th so we can order the right amount of puzzles!
         </Typography>
         <Typography sx={{ fontWeight: 500, marginLeft: '1rem' }}>
           <b>Prizes:</b> Puzzle prizes for the top finishers!
