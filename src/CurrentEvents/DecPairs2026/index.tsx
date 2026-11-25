@@ -38,11 +38,11 @@ const DecPairs2026 = () => {
         <br />
         <Typography sx={{ fontWeight: 500, marginLeft: '1rem' }}>
           <b>What:</b> A pair of pairs relays! Puzzlers will be paired up into
-          random pairs. Each pair will work on two 200-piece puzzles, one on
-          each. Every five minutes, you'll switch to the other puzzle and your
-          partner will come to yours. After all pairs are finished, you'll be
-          paired up randomly again to run the relay on two new 200-piece
-          puzzles.
+          random pairs or you can bring your own partner if you really want.
+          Each pair will work on two 200-piece puzzles, one on each. Every five
+          minutes, you'll switch to the other puzzle and your partner will come
+          to yours. After all pairs are finished, you'll be paired up randomly
+          again to run the relay on two new 200-piece puzzles.
           <br />
         </Typography>
         <Typography sx={{ fontWeight: 500, marginLeft: '1rem' }}>
