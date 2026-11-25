@@ -132,6 +132,15 @@ const events: PuzzleEvent[] = [
     types: ['speed'],
     infoLink: '/#/events/dec_pairs_2026',
   },
+  {
+    title: 'Intergenerational Puzzle Palooza Competition',
+    startsAt: new Date('2026-12-12T18:00:00.00Z'),
+    city: 'Albuquerque',
+    types: ['speed'],
+    infoLink:
+      'https://www.cabq.gov/seniors/events/intergenerational-puzzle-palooza-competition',
+    logoName: 'albuquerque',
+  },
 ]
 
 export default events

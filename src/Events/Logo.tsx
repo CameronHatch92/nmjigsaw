@@ -1,5 +1,6 @@
 import { Box } from '@mui/material'
 
+import albuquerque from '../assets/albuquerque.png'
 import canteen from '../assets/canteen.jpg'
 import clovis from '../assets/clovis.jpeg'
 import nmJpaSquare from '../assets/nmJpaSquare.jpeg'
@@ -15,6 +16,9 @@ interface Props {
 const Logo = ({ logoName }: Props) => {
   const src = () => {
     switch (logoName) {
+      case 'albuquerque': {
+        return albuquerque
+      }
       case 'canteen': {
         return canteen
       }

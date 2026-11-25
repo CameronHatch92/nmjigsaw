@@ -13,4 +13,9 @@ export interface PuzzleEvent {
 export type EventType = 'casual' | 'speed' | 'swap'
 
 export type LogoName =
-  'canteen' | 'clovis' | 'rioRanchoLibrary' | 'speedPuzzling' | 'sliceAndDice'
+  | 'albuquerque'
+  | 'canteen'
+  | 'clovis'
+  | 'rioRanchoLibrary'
+  | 'speedPuzzling'
+  | 'sliceAndDice'
